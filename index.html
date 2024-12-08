@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Mnagement System</title>
+</head>
+<body>
+    
+ <div id ="Head">
+
+    <div style="display: flex;margin-left: 920px;cursor: pointer;gap: 10px;">
+        <a href="index.html" style="color: rgb(red, green, blue); text-decoration: underline;">Home</a><br>
+        <a href="dashboard.html" style="color: rgb(red, green, blue); text-decoration: underline;">dashboard</a><br>
+        <a href="buy.html" style="color: rgb(red, green, blue); text-decoration: underline;">Buy</a><br>
+        <a href="bookmark.html" style="color: rgb(red, green, blue); text-decoration: underline;">Added Books</a><br>
+
+    </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h1>Library Management System</h1>
+        <form id="book-form">
+            <input
+              type="text"
+              id="bookName"
+              placeholder="Book bookName"
+              required
+              /><br />
+
+              <input
+              type="text"
+              id="authorName"
+              placeholder="authorName"
+              required
+              /><br />
+
+              <input
+              type="text"
+              id="bookDescription"
+              placeholder="Book Description"
+              required
+              /><br />
+            <p>Adding Date:-</p>
+
+            <input type="date" id="addeddate" required  /><br />
+
+            <select id="book category" aria-placeholder="select category" required>
+                <option value="Fiction">Fiction</option>
+                <option value="self Help">self Help</option>
+                <option value="Finance">Finance</option></select
+                ><br />
+                <input
+                type="number"
+                id="bookprice"
+                placeholder="Book's price"
+                required
+                /><br />
+                <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
+<script src="index.js">
+</script>
